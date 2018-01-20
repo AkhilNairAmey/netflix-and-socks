@@ -22,7 +22,17 @@ There steps we will take are
 
 ### Download the `terraform` config files
 
+Download the code (including the necessary config) [here](https://github.com/AkhilNairAmey/netflix-and-socks). If you've used `git` before, you know what to do. Else, click the `Download ZIP` button and get the code like a normal folder.
 
+![Clone Repo](img/clone.png)
+
+For now, we won't need any of the files. Just remember there is a file at `folder/secrets/terraform.tfvars.template`, which we will soon be filling in with some credentials you'll make.
+
+```
+akhil@pc:~/personal/netflix-and-socks cat secrets/terraform.tfvars.template
+access_key = "XXXXXXXXXXXXXXXXXXXX"
+secret_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+```
 
 ### Sign up to AWS
 
