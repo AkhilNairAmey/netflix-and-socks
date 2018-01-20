@@ -1,8 +1,4 @@
 variable "access_key" {}
 variable "secret_key" {}
-variable "region" {
-  default = "us-east-1"
-}
-variable "public_key" {
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDkWsCgFY5MKukXYz78w/iKoodqLaNY1A/1vOshYFm5xC+z4XcOh7MsisszhCngej725LLxVLFUKhyc2Lfrjh61ZQlziEyd+RoxIOCQ75C8k6NR8uVCFxvwZ1A7WAHoc55SoMquPm9zby6d9xYix30IQZZ9hZPKYa6nMrwKr6ockUr9YiDREwIjzlCYcKt67aotID4ThUWArbHDZOneIQyfcYi2/qef0l1nCW0kn9qwiLO6sHqNIEr7fLWJB5ckZLkStvwZnBxRV2nnrrcRdTwb8jbksALLR4v9JrHBj9IO1qYY/MBJYc4mUDtY0L8oSaitOwnW+RZisfIZa90MtUt6AkBOaVjPZ+rj7Z5hM6RibbVs9GRDF3dkCecq1EL9HIQb2+q0T5Xoc/wEhh21EzDGx8z1HEMQh//d+LQ/MIp/QoGtNBZjZjRMRlXGdg8JnrdjNrmIcEKeetQNNTNYHvNeZMCvXt+E+6IPbA43yPDCIuEIX+4RkouWu1IX/+FhjZdTcL6bxps2N8njFVm4usQ07gylTDrgdmi8511gL2uB+pOBd8jI2wb/ZpUeQjkvo5pIb2nvCB50gBqdODFfI3Cs2lruj+p8ZFyLq1W4MYh2hAu/8v43FmZZjo88XYIXtWMRXkpH88/kM+LND6dKoOFhqr62GMJTYixPTyvUF+rCLw== akhil.nair@amey.co.uk"
-}
+variable "public_key" {}
+variable "region" {}
