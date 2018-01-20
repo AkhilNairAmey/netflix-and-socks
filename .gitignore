@@ -1,4 +1,5 @@
 terraform/ip_address
-terraform/secrets
+terraform/secrets/*
+!terraform/secrets/.gitkeep
 terraform/.terraform
 **/*.tfstate*
