@@ -1,0 +1,4 @@
+terraform/ip_address
+terraform/secrets
+terraform/.terraform
+**/*.tfstate*
