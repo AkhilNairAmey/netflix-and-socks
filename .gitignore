@@ -1,11 +1,11 @@
 # Ignore my secrets, but leave the directory structure
-terraform/secrets/*
-!terraform/secrets/.gitkeep
-!terraform/secrets/terraform.tfvars.template
+secrets/*
+!secrets/.gitkeep
+!secrets/terraform.tfvars.template
 
 # Don't include drivers
-terraform/.terraform
+.terraform
 
 # Unnecessary specific details
-terraform/ip_address
+ip_address
 **/*.tfstate*
