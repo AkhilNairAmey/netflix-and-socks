@@ -1,6 +1,7 @@
 # Ignore my secrets, but leave the directory structure
 terraform/secrets/*
 !terraform/secrets/.gitkeep
+!terraform/secrets/terraform.tfvars.template
 
 # Don't include drivers
 terraform/.terraform
